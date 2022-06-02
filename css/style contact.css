@@ -1,0 +1,110 @@
+.navbar-brand {
+  width:150px;
+  font-size: 24px;
+}
+.navbar-brand img {
+  height: 50px;
+ 
+  float: left;
+  margin-right: 7px;
+}
+
+  .contact #error_message {
+    margin-bottom: 20px;
+    padding: 0px;
+    background: #fe8b8e;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.5s ease;
+  }
+
+  .contact .contact-info-item p,
+  .contact .contact-info-item p a {
+    font-size: 16px;
+    line-height: 25px;
+    color: #504e70;
+    margin: 0;
+    font-weight: 400;
+  }
+  .contact .contact-info-item p:hover a {
+    border-bottom: 1px dotted #504e70;
+  }
+  .contact .contact-form {
+    background-color: red; 
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .contact .contact-form .col-6 {
+    background-color: red;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .contact .contact-form .col-12 {
+    background-color: red;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .contact .contact-form .form-item {
+    margin-bottom: 30px;
+  }
+  .contact .contact-form .form-item .form-control {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #d4d4e3;
+    padding: 10px 25px;
+    font-size: 16px;
+    color: #504e70;
+    transition: all 0.5s ease;
+  } 
+  .contact .contact-form .form-item .form-control:focus {
+    -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+   }
+  .contact .contact-form .form-item textarea.form-control {
+    height: 140px;
+  }
+  .contact .contact-form .btn {
+    height: 50px;
+    padding: 0 50px;
+  }
+  .contact .contact-form .btn a {
+    color: #ffffff;
+  }
+  .toggles .body {
+    margin-left: 20px;
+  } 
+
+  .icon{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+  }
+
+  h4{
+    display: flex;
+    justify-content: center;
+  }
+
+  p{
+    display: flex;
+    justify-content: center;
+  }
+
+  body{
+    background: url(../picture/grey\ Screenshot\ 2022-05-12\ 105929.png);
+      font-family: 'Macondo' !important;
+  }
+
+  .text-center{
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .h1-responsive{
+    display: flex;
+    justify-content: center;
+  }
